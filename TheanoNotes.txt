@@ -1,0 +1,23 @@
+Installation on windows:
+http://blog.ihsgnef.tk/theano-cuda-windows/
+Theano-master-1017 version used
+
+theanorc details:
+
+Path: "C:\Users\vinods\.theanorc"
+
+Content:
+
+[global]
+floatX = float32
+device = gpu
+compute_test_value = off
+exception_verbosity = high
+
+[lib]
+cnmem=1
+
+[nvcc]
+flags=-LC:\Anaconda\libs
+compiler_bindir=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin
+fastmath = True

@@ -1,0 +1,5 @@
+Download the 16 layer VGGNet from caffe model zoo
+filename: VGG_ILSVRC_16_layers.caffemodel
+URL:
+https://gist.github.com/ksimonyan/211839e770f7b538e2d8
+http://www.robots.ox.ac.uk/~vgg/software/very_deep/caffe/VGG_ILSVRC_16_layers.caffemodel
